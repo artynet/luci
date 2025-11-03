@@ -933,6 +933,8 @@
             
                 <li data-name="LuCI.form.GridSection#extedit"><a href="LuCI.form.GridSection.html#extedit">extedit</a></li>
             
+                <li data-name="LuCI.form.GridSection#hidetitle"><a href="LuCI.form.GridSection.html#hidetitle">hidetitle</a></li>
+            
                 <li data-name="LuCI.form.GridSection#max_cols"><a href="LuCI.form.GridSection.html#max_cols">max_cols</a></li>
             
                 <li data-name="LuCI.form.GridSection#modaltitle"><a href="LuCI.form.GridSection.html#modaltitle">modaltitle</a></li>
@@ -1405,6 +1407,8 @@
             
                 <li data-name="LuCI.form.NamedSection##addremove"><a href="LuCI.form.NamedSection.html#addremove">addremove</a></li>
             
+                <li data-name="LuCI.form.NamedSection##hidetitle"><a href="LuCI.form.NamedSection.html#hidetitle">hidetitle</a></li>
+            
                 <li data-name="LuCI.form.NamedSection##uciconfig"><a href="LuCI.form.NamedSection.html#uciconfig">uciconfig</a></li>
             
                 <li data-name="LuCI.form.NamedSection#parentoption"><a href="LuCI.form.NamedSection.html#parentoption">parentoption</a></li>
@@ -1789,6 +1793,8 @@
             
                 <li data-name="LuCI.form.TableSection#cloneable"><a href="LuCI.form.TableSection.html#cloneable">cloneable</a></li>
             
+                <li data-name="LuCI.form.TableSection#hidetitle"><a href="LuCI.form.TableSection.html#hidetitle">hidetitle</a></li>
+            
                 <li data-name="LuCI.form.TableSection#parentoption"><a href="LuCI.form.TableSection.html#parentoption">parentoption</a></li>
             
                 <li data-name="LuCI.form.TableSection#tabbed"><a href="LuCI.form.TableSection.html#tabbed">tabbed</a></li>
@@ -1954,6 +1960,8 @@
                 <li data-name="LuCI.form.TypedSection##anonymous"><a href="LuCI.form.TypedSection.html#anonymous">anonymous</a></li>
             
                 <li data-name="LuCI.form.TypedSection##cloneable"><a href="LuCI.form.TypedSection.html#cloneable">cloneable</a></li>
+            
+                <li data-name="LuCI.form.TypedSection##hidetitle"><a href="LuCI.form.TypedSection.html#hidetitle">hidetitle</a></li>
             
                 <li data-name="LuCI.form.TypedSection##tabbed"><a href="LuCI.form.TypedSection.html#tabbed">tabbed</a></li>
             
@@ -2483,6 +2491,8 @@
                 <li data-name="LuCI.network.Protocol#isFloating"><a href="LuCI.network.Protocol.html#isFloating">isFloating</a></li>
             
                 <li data-name="LuCI.network.Protocol#isInstalled"><a href="LuCI.network.Protocol.html#isInstalled">isInstalled</a></li>
+            
+                <li data-name="LuCI.network.Protocol#isPending"><a href="LuCI.network.Protocol.html#isPending">isPending</a></li>
             
                 <li data-name="LuCI.network.Protocol#isUp"><a href="LuCI.network.Protocol.html#isUp">isUp</a></li>
             
@@ -3867,7 +3877,7 @@ such networks in parallel.</p></div>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3640">line 3640</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3653">line 3653</a>
         </div>
         
     </div>
@@ -3952,7 +3962,7 @@ such networks in parallel.</p></div>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4462">line 4462</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4475">line 4475</a>
         </div>
         
     </div>
@@ -4131,7 +4141,7 @@ with. Default is <code>1</code> which corresponds to <code>Unspecified reason</c
                         
                     
                 
-                <p>Specifies the amount of milliseconds to ban the client from
+                <p>Specifies the number of milliseconds to ban the client from
 reconnecting. By default, no ban time is set which allows the client
 to re-associate / reauthenticate immediately.</p></td>
         </tr>
@@ -4223,7 +4233,7 @@ are passed.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3674">line 3674</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3687">line 3687</a>
         </div>
         
     </div>
@@ -4375,7 +4385,7 @@ not found.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3950">line 3950</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3963">line 3963</a>
         </div>
         
     </div>
@@ -4476,7 +4486,7 @@ information.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3961">line 3961</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3974">line 3974</a>
         </div>
         
     </div>
@@ -4577,7 +4587,7 @@ encryption state could not be found in <code>ubus</code> runtime information.</t
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3893">line 3893</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3906">line 3906</a>
         </div>
         
     </div>
@@ -4690,7 +4700,7 @@ Possible returned values are:
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3914">line 3914</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3927">line 3927</a>
         </div>
         
     </div>
@@ -4792,7 +4802,7 @@ translated string.</p>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3939">line 3939</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3952">line 3952</a>
         </div>
         
     </div>
@@ -4893,7 +4903,7 @@ information.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4163">line 4163</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4176">line 4176</a>
         </div>
         
     </div>
@@ -4994,7 +5004,7 @@ with this network.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4227">line 4227</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4240">line 4240</a>
         </div>
         
     </div>
@@ -5005,7 +5015,7 @@ with this network.</td>
     
     
     <div class="description">
-        <p>Query the current average bit-rate of all peers associated to this
+        <p>Query the current average bit-rate of all peers associated with this
 wireless network.</p>
     </div>
     
@@ -5076,7 +5086,7 @@ wireless network.</p>
                         
                     
             </td>
-            <td class="description last">Returns the average bit rate among all peers associated to the network
+            <td class="description last">Returns the average bit rate among all peers associated with the network
 as reported by <code>ubus</code> runtime information or <code>null</code> if the information
 is not available.</td>
         </tr>
@@ -5100,7 +5110,7 @@ is not available.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3753">line 3753</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3766">line 3766</a>
         </div>
         
     </div>
@@ -5203,7 +5213,7 @@ is not available.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4243">line 4243</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4256">line 4256</a>
         </div>
         
     </div>
@@ -5307,7 +5317,7 @@ or <code>null</code> if it cannot be determined.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4276">line 4276</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4289">line 4289</a>
         </div>
         
     </div>
@@ -5408,7 +5418,7 @@ information or <code>00</code> if it cannot be determined.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4422">line 4422</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4435">line 4435</a>
         </div>
         
     </div>
@@ -5509,7 +5519,7 @@ device associated with this wireless network.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4209">line 4209</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4222">line 4222</a>
         </div>
         
     </div>
@@ -5614,7 +5624,7 @@ available.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4370">line 4370</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4383">line 4383</a>
         </div>
         
     </div>
@@ -5717,7 +5727,7 @@ name, depending on which information is available.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3778">line 3778</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3791">line 3791</a>
         </div>
         
     </div>
@@ -5820,7 +5830,7 @@ radio and network index numbers.</p>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3800">line 3800</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3813">line 3813</a>
         </div>
         
     </div>
@@ -5925,7 +5935,7 @@ associated network device, e.g. when not configured or up.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3740">line 3740</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3753">line 3753</a>
         </div>
         
     </div>
@@ -6029,7 +6039,7 @@ is not in mesh mode.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3715">line 3715</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3728">line 3728</a>
         </div>
         
     </div>
@@ -6136,7 +6146,7 @@ is not in mesh mode.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3788">line 3788</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3801">line 3801</a>
         </div>
         
     </div>
@@ -6236,7 +6246,7 @@ is not in mesh mode.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4386">line 4386</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4399">line 4399</a>
         </div>
         
     </div>
@@ -6341,7 +6351,7 @@ interface.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3764">line 3764</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3777">line 3777</a>
         </div>
         
     </div>
@@ -6442,7 +6452,7 @@ attached to.</p>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4397">line 4397</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4410">line 4410</a>
         </div>
         
     </div>
@@ -6543,7 +6553,7 @@ logical interfaces this wireless network is attached to.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4265">line 4265</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4278">line 4278</a>
         </div>
         
     </div>
@@ -6644,7 +6654,7 @@ information or <code>0</code> if it cannot be determined.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4355">line 4355</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4368">line 4368</a>
         </div>
         
     </div>
@@ -6746,7 +6756,7 @@ internal network ID, depending on which information is available.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4254">line 4254</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4267">line 4267</a>
         </div>
         
     </div>
@@ -6850,7 +6860,7 @@ information or <code>null</code> if it cannot be determined.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4314">line 4314</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4327">line 4327</a>
         </div>
         
     </div>
@@ -6953,7 +6963,7 @@ noise and signal (SNR), divided by 5.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4337">line 4337</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4350">line 4350</a>
         </div>
         
     </div>
@@ -7055,7 +7065,7 @@ by <code>ubus</code> runtime state.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3726">line 3726</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3739">line 3739</a>
         </div>
         
     </div>
@@ -7159,7 +7169,7 @@ in mesh mode.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4287">line 4287</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4300">line 4300</a>
         </div>
         
     </div>
@@ -7263,7 +7273,7 @@ in mesh mode.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4302">line 4302</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4315">line 4315</a>
         </div>
         
     </div>
@@ -7367,7 +7377,7 @@ cannot be determined.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3817">line 3817</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3830">line 3830</a>
         </div>
         
     </div>
@@ -7469,7 +7479,7 @@ has no associated VLAN network devices.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4190">line 4190</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4203">line 4203</a>
         </div>
         
     </div>
@@ -7569,7 +7579,7 @@ has no associated VLAN network devices.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3846">line 3846</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3859">line 3859</a>
         </div>
         
     </div>
@@ -7674,7 +7684,7 @@ found.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3834">line 3834</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3847">line 3847</a>
         </div>
         
     </div>
@@ -7778,7 +7788,7 @@ or <code>null</code> if it cannot be determined.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4433">line 4433</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line4446">line 4446</a>
         </div>
         
     </div>
@@ -7879,7 +7889,7 @@ de-authenticating clients, otherwise <code>false</code>.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3700">line 3700</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3713">line 3713</a>
         </div>
         
     </div>
@@ -7981,7 +7991,7 @@ UCI configuration.</td>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3867">line 3867</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3880">line 3880</a>
         </div>
         
     </div>
@@ -8086,7 +8096,7 @@ instance.</p>
     
         
         <div class="tag-source">
-            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3688">line 3688</a>
+            <a href="network.js.html">network.js</a>, <a href="network.js.html#line3701">line 3701</a>
         </div>
         
     </div>
@@ -8240,7 +8250,7 @@ configuration.</p></td>
         
 
         <footer>
-            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a> on Fri Sep 19 2025 15:23:33 GMT+0000 (Coordinated Universal Time)
+            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a> on Mon Nov 03 2025 09:21:59 GMT+0000 (Coordinated Universal Time)
         </footer>
     </div>
 </div>
